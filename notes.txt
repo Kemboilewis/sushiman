@@ -1,0 +1,21 @@
+Key learning points:
+File structure
+Requirements:
+Assets---Images
+Fonts---font families to use
+color---primary and secondary color
+Responsive..media queries&device break points
+
+Steps:
+1.Use vite to initialize the project
+2.Delete unneccessary files
+3.Create the file structure
+4.Code the starter code:
+css global styles
+root
+imports
+media queries
+5.Start with the index.html
+
+Key learnings from the project:
+1.BEM naming for CSS classes
