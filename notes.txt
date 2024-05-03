@@ -19,3 +19,38 @@ media queries
 
 Key learnings from the project:
 1.BEM naming for CSS classes
+2.Utility classes
+
+
+Notes:working with git branches:
+1.git checkout main...switch to main branch
+2.git branch style_change...create a new branch
+3.git checkout style_change..switch to the main branch
+a/t for 2&3..git checkout -b style_change
+4.git branch...view the list of all branches
+
+Committing changes to a branch:
+1.git add .
+2.git commit -m "Message"
+
+Create and commit on another branch:
+1.checkout to the main branch
+2.create a new branch and checkout to it git branch -b "new branch"
+3.Create the feature of that branch
+
+Merge a branch to the main branch.
+Checkout to the main branch after committing all changes in the feature branch
+git merge "name of the branch"
+
+Delete a branch after merge:
+git branch
+git checkout main
+git branch -d "name of the branch"
+
+How to merge main back to branches:
+1.checkout to one of the feature branches
+git checkout "name of the branch"
+2.merge the main branch to the current branch
+git merge main
+
+https://www.freecodecamp.org/news/git-branching-commands-explained/
